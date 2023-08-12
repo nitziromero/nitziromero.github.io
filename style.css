@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #286075 !important;
+}
+
+#menu {
+  height: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nav-link {
+  padding: 20px !important;
+}
+.nav-link:hover {
+  color: #2ea9b6 !important;
+}
+
+.acento {
+  background-color: #286075;
+  color: #ffff !important;
+  padding: 13px;
+}
+
+@media (min-width: 820px) {
+  #banner {
+    height: 550px;
+  }
+}
+
+#inscripcion {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cartelera1,
+.cartelera2,
+.cartelera3 {
+  padding: 30px;
+}
+
+.titulo-principal {
+  color: #286075;
+  font-weight: 700;
+  font-size: 33px;
+  text-align: center;
+  font-style: normal;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+#cuerpo-tarjeta {
+  border-radius: 0px;
+  color: #286075;
+  background-color: #e2e04f;
+  border: 1px solid #ecf0f1;
+  text-align: center;
+}
+
+.tarjeta-title {
+  font-weight: 600 !important;
+}
+.tarjeta-text {
+  font-size: 12px;
+}
+.card:hover {
+  box-shadow: 0px 10px 0px 0px #2ea9b6;
+}
+
+.solucion-impacto {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.parrafo {
+  padding: 20px 20px 20px 20px;
+
+  text-justify: distribute;
+}
+#solu {
+  border-radius: 50%;
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+.resultados {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f8f8f8;
+}
+
+.thin {
+  font-weight: 200 !important;
+  font-family: "Lato", sans-serif !important;
+}
+
+.texto-ar {
+  font-weight: 400 !important;
+  font-size: 14px;
+}
+
+.btn-info {
+  background-color: #286075;
+  color: #ecf0f1 !important;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 200 !important;
+}
+
+.novedad {
+  background-color: #ffff;
+  margin: 1%;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#nov-titulo {
+  font-family: "Lato", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700!important;
+  color: #286075;
+}
+
+#nov-autor {
+  font-family: "Lato", sans-serif !important;
+  font-size: 14px;
+}
+#nov-texto {
+  font-family: "Lato", sans-serif !important;
+}
+
+@media (max-width: 576px) {
+  #inscripcion {
+    transform: scale(0.9); /* Reducción de escala en un 90% */
+    transform-origin: top; /* Punto de origen de la transformación */
+    padding: 20px; /* Ajusta el espaciado en dispositivos pequeños */
+  }
+
+  .titulo-principal {
+    font-size: 28px; /* Ajusta el tamaño del título en dispositivos pequeños */
+    line-height: 36px;
+  }
+
+  #cuerpo-tarjeta {
+    padding: 10px;
+  }
+
+  .tarjeta-text {
+    font-size: 10px;
+  }
+  .card-img {
+    width: 100% !important;
+  }
+}
